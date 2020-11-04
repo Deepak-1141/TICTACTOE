@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel = "stylesheet"type = "text/css" href = "styles.css" />
+</head>
+<body>
+    <script src="TicTacToe.js" type="text/javascript"></script>
+
+    <header>
+        <h1><center>TIC TAC TOE</center></h1>
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <table>
+        <tr>
+            <td><input type="button" id="1" onclick="fill(1)" value=""></td>
+            <td><input type="button" id="2" onclick="fill(2)" value=""></td>
+            <td><input type="button" id="3" onclick="fill(3)" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="4" onclick="fill(4)" value=""></td>
+            <td><input type="button" id="5" onclick="fill(5)" value=""></td>
+            <td><input type="button" id="6" onclick="fill(6)" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="7" onclick="fill(7)" value=""></td>
+            <td><input type="button" id="8" onclick="fill(8)" value=""></td>
+            <td><input type="button" id="9" onclick="fill(9)" value=""></td>
+        </tr>
+    </table>
+ <br>
+    <button onclick="Input()">Reset</button>
+
+    <div align="center" id="pop">
+        <p id="text">text</p>
+        <button id="pop_button" onclick="Input()">OK</button>
+    </div>
+    <div id="write"></div>
+</body>
+</html>
